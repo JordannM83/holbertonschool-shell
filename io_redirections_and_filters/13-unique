@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -s  '[:space:]' '\n' < list_1 list_2 | sort -df | uniq -u
+tr -s  '[:space:]' '\n' < list_1 | sort | uniq -u
