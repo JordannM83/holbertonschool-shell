@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -s '[:space:]' | sort -fb | uniq -u
+sort -fb | uniq -u
