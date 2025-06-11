@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir action printenv PATH
+echo $PATH:/action 
