@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv PATH | touch action
+printenv PATH | mkdir action
