@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i 's/"^c"//g' | sed -i 's/"^C"//g'
+tr -d c | tr -d C
