@@ -1,0 +1,2 @@
+#!/bin/bash
+getent passwd {1..999} | awk -F: '{print $1 ":" $6}'| sort
